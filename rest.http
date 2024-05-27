@@ -1,0 +1,22 @@
+GET http://[::1]:3333/tasks HTTP/1.1
+
+###
+
+POST http://[::1]:3333/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "Title":"Compra Agua ",
+    "Description":"Devo comprar Agua no mercado amanhã de manhã"
+}
+
+###
+PUT http://[::1]:3333/tasks/fd08741e-2396-4987-8021-9ae9f8a43a70/completed HTTP/1.1
+content-type: application/json
+
+{
+    "Title":"eu sou gay"
+}
+###
+
+DELETE http://[::1]:3333/tasks/552ec567-bdc7-4864-bc33-826a47fbfd2d HTTP/1.1
