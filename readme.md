@@ -1,5 +1,10 @@
 # Task Manager API
+<p align="center">
 
+<img src = "https://img.shields.io/badge/NPM-10.5.2-gray?style=flat&labelColor=green">
+<img src = "https://img.shields.io/badge/TypeScript-5.4.5-gray?style=flat&labelColor=blue" >
+
+</p>
 Ja imaginou poder controlar suas tarefas diarias de uma forma simple mas que ao mesmo tempo fosse completa? Esta API oferece as melhores ferramentas para o desenvovlimento completo de uma aplicaçao capaz disso 
 
 # Descrição
@@ -25,7 +30,8 @@ npm run start
 ```
 
 ## Tech Stack
-
+<div display = "inline-block">
+	
 ![Static Badge](https://img.shields.io/badge/Prisma-blue?style=for-the-badge&labelColor=gray)
 
 ![Static Badge](https://img.shields.io/badge/Typescript-blue?style=for-the-badge&labelColor=gray)
@@ -37,7 +43,7 @@ npm run start
 ![Static Badge](https://img.shields.io/badge/Zod-orange?style=for-the-badge&labelColor=gray)
 
 ![Static Badge](https://img.shields.io/badge/DotEnv--gray?style=for-the-badge&labelColor=gray&color=gray)
-
+</div>
 ## requisitos do projeto:
 
 ### RF 
