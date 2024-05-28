@@ -8,16 +8,17 @@ import { randomUUID } from "crypto";
 
 export async function Tasks(app:FastifyInstance) {
     app.addHook("preHandler",async(req,res)=>{
-        console.log(req.method, " ", req.params)
+        const slug = req.cookies.sluger
+        console.log(req.method, " ", req.params, " cookie:",slug)
     })
 
     app.get("/",{
         preHandler:[verifyCookie]
     },async (req,res)=>{
-        const slug = req.cookies.slugger
+        const Slug = req.cookies.sluger
         const getTaskList = await prisma.tasks.findMany({
             where:{
-                Slug:slug
+                Slug,
             }
         })
 
@@ -25,13 +26,12 @@ export async function Tasks(app:FastifyInstance) {
     })
 
     app.post("/",{
-        preHandler:[verifyCookie]
     },async (req,res)=>{
         var Slug = req.cookies.sluger
         if(!Slug){
             Slug = randomUUID()
-            res.cookie("slugger",Slug,{
-                expires: new Date(Date.now()*60 *60*24*7)
+            res.cookie("sluger",Slug,{
+                expires: new Date(Date.now()+60 *60)
             })
         }
         const dataSchema = z.object(
@@ -56,6 +56,7 @@ export async function Tasks(app:FastifyInstance) {
 
     })
 
+ 
 
     app.put("/:tId",{
         preHandler:[verifyCookie]

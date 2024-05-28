@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tsx watch src/server.ts"
+    "dev": "npx tsx watch src/server.ts",
+    "test": "npx vitest",
+    "clean":"npx prisma migrate reset"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +15,14 @@
     "@fastify/cookie": "^9.3.1",
     "@prisma/client": "^5.14.0",
     "@types/node": "^20.12.12",
+    "@types/supertest": "^6.0.2",
     "dotenv": "^16.4.5",
     "fastify": "^4.27.0",
     "prisma": "^5.14.0",
+    "supertest": "^7.0.0",
     "tsx": "^4.11.0",
     "typescript": "^5.4.5",
+    "vitest": "^1.6.0",
     "zod": "^3.23.8"
   }
 }

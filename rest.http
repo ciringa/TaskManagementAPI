@@ -6,17 +6,17 @@ POST http://[::1]:3333/tasks HTTP/1.1
 content-type: application/json
 
 {
-    "Title":"Compra Agua ",
+    "Title":"Comprar Pao",
     "Description":"Devo comprar Agua no mercado amanhã de manhã"
 }
 
 ###
-PUT http://[::1]:3333/tasks/fd08741e-2396-4987-8021-9ae9f8a43a70/completed HTTP/1.1
+PUT http://[::1]:3333/tasks/7792be97-0a1e-4c8c-b8fb-e879681fb010 HTTP/1.1
 content-type: application/json
 
 {
-    "Title":"eu sou gay"
+    "Title":"Comprar Comida"
 }
 ###
 
-DELETE http://[::1]:3333/tasks/552ec567-bdc7-4864-bc33-826a47fbfd2d HTTP/1.1
+DELETE http://[::1]:3333/tasks/8b45a9f5-ab94-4e28-8952-86f45f378cba HTTP/1.1
