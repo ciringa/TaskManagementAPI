@@ -1,11 +1,13 @@
-# Task Manager API
 <p align="center">
 
 <img src = "https://img.shields.io/badge/NPM-10.5.2-gray?style=flat&labelColor=green">
 <img src = "https://img.shields.io/badge/TypeScript-5.4.5-gray?style=flat&labelColor=blue" >
 
 </p>
-Ja imaginou poder controlar suas tarefas diarias de uma forma simple mas que ao mesmo tempo fosse completa? Esta API oferece as melhores ferramentas para o desenvovlimento completo de uma aplicaçao capaz disso 
+
+# Task Manager API
+
+Ja imaginou poder controlar suas tarefas diarias de uma forma simples mas que ao mesmo tempo fosse completa? Esta API oferece as melhores ferramentas para o desenvovlimento completo de uma aplicaçao capaz disso 
 
 # Descrição
 um pequeno projeto de treno buscando aperfeiçoar tecnologias chaves para trabalho no mercado
@@ -30,20 +32,17 @@ npm run start
 ```
 
 ## Tech Stack
-<div display = "inline-block">
+<div style = "display:flex; flex-direction:row, flex-wrap:wrap">
 	
-![Static Badge](https://img.shields.io/badge/Prisma-blue?style=for-the-badge&labelColor=gray)
+<img src="https://img.shields.io/badge/Prisma-blue?style=for-the-badge&labelColor=gray"></img>
+<img src="https://img.shields.io/badge/Vitest--orange?style=for-the-badge&labelColor=orange&color=orange"></img>
+<img src="https://img.shields.io/badge/Typescript-blue?style=for-the-badge&labelColor=gray"></img>
+<img src="https://img.shields.io/badge/Zod-orange?style=for-the-badge&labelColor=gray"></img>
+<img src="https://img.shields.io/badge/DotEnv--gray?style=for-the-badge&labelColor=gray&color=gray"></img>
 
-![Static Badge](https://img.shields.io/badge/Typescript-blue?style=for-the-badge&labelColor=gray)
-
-![Static Badge](https://img.shields.io/badge/Vitest--orange?style=for-the-badge&labelColor=orange&color=orange)
-
-![Static Badge](https://img.shields.io/badge/Fastify-black?style=for-the-badge&labelColor=gray)
-
-![Static Badge](https://img.shields.io/badge/Zod-orange?style=for-the-badge&labelColor=gray)
-
-![Static Badge](https://img.shields.io/badge/DotEnv--gray?style=for-the-badge&labelColor=gray&color=gray)
 </div>
+
+
 ## requisitos do projeto:
 
 ### RF 
